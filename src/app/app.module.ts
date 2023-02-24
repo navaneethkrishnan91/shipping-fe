@@ -1,16 +1,36 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InsertParcelComponent } from './insert-parcel/insert-parcel.component';
+import { ParcelListComponent } from './parcel-list/parcel-list.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ParcelTestComponent } from './parcel-test/parcel-test.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatTableModule } from '@angular/material/table';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InsertParcelComponent,
+    ParcelListComponent,
+    ParcelTestComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    HttpClientModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatButtonModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
