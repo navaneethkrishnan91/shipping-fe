@@ -1,27 +1,32 @@
-# ShippingFe
+# Shipping Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+This is a simple web application that allows users to insert and list parcels. It is built with Angular.
 
-## Development server
+## Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Node.js version 12.x or higher
+- npm package manager
+- Docker (optional)
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone the repository to your local machine.
+Open a terminal and navigate to the project's root directory.
+Run `npm install` to install the required dependencies.
 
-## Build
+## Running the App Locally
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm run build` to build the app.
+Run `npm run start` to start the app.
+Open a web browser and navigate to http://localhost:4200.
 
-## Running unit tests
+## Running the App with Docker
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Make sure you have Docker installed on your machine.
+Open a terminal and navigate to the project's root directory.
+Run `docker-compose up --build` to build and start the Docker container.
+Open a web browser and navigate to http://localhost:4200.
 
-## Running end-to-end tests
+## Testing
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Run `npm run test` to run the tests for the app.
