@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Parcel, ParcelService } from '../parcel.service';
+import { ParcelService } from '../parcel/parcel.service';
+import { Parcel } from '../parcel/parcel';
 
 @Component({
   selector: 'app-parcel-list',
@@ -11,7 +12,14 @@ export class ParcelListComponent implements OnInit {
   descriptionFilter = '';
   parcels: Parcel[] = [];
 
-  displayedColumns: string[] = ['sku', 'description', 'address', 'town', 'country', 'deliveryDate'];
+  displayedColumns: string[] = [
+    'ParcelSKU',
+    'Description',
+    'Address',
+    'Town',
+    'Country',
+    'Delivery Date'
+  ];
 
   constructor(private parcelService: ParcelService) {}
 
