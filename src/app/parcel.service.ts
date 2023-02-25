@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs';
 import { HttpClient, HttpParams } from '@angular/common/http';
 
 @Injectable({
@@ -10,7 +10,7 @@ export class ParcelService {
 
   constructor(private http: HttpClient) {}
 
-  insertParcel(parcel: any): Observable<Parcel> {
+  insertParcel(parcel: Parcel): Observable<Parcel> {
     return this.http.post<Parcel>(this.apiUrl + '/parcels', parcel);
   }
 
