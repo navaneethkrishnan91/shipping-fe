@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { ParcelService } from '../parcel.service';
+import { ParcelService } from '../parcel/parcel.service';
 
 @Component({
   selector: 'app-insert-parcel',

@@ -4,7 +4,8 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { of } from 'rxjs';
 
 import { InsertParcelComponent } from './insert-parcel.component';
-import { Parcel, ParcelService } from '../parcel.service';
+import { ParcelService } from '../parcel/parcel.service';
+import { Parcel } from '../parcel/parcel';
 
 describe('InsertParcelComponent', () => {
   let component: InsertParcelComponent;

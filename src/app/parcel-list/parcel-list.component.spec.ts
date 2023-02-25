@@ -6,7 +6,8 @@ import { FormsModule } from '@angular/forms';
 import { of } from 'rxjs';
 
 import { ParcelListComponent } from './parcel-list.component';
-import { ParcelService, Parcel } from '../parcel.service';
+import { ParcelService } from '../parcel/parcel.service';
+import { Parcel } from '../parcel/parcel';
 
 describe('ParcelListComponent', () => {
   let component: ParcelListComponent;

@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
-import { ParcelService, Parcel } from './parcel.service';
+import { ParcelService } from './parcel.service';
+import { Parcel } from './parcel';
 
 describe('ParcelService', () => {
   let service: ParcelService;
