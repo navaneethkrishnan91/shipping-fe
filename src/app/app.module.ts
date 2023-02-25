@@ -8,10 +8,13 @@ import { AppComponent } from './app.component';
 import { InsertParcelComponent } from './insert-parcel/insert-parcel.component';
 import { ParcelListComponent } from './parcel-list/parcel-list.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ParcelTestComponent } from './parcel-test/parcel-test.component';
+
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -19,7 +22,6 @@ import { MatTableModule } from '@angular/material/table';
     AppComponent,
     InsertParcelComponent,
     ParcelListComponent,
-    ParcelTestComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +33,9 @@ import { MatTableModule } from '@angular/material/table';
     MatInputModule,
     MatButtonModule,
     MatTableModule,
+    MatFormFieldModule,
+    MatCardModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

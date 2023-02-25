@@ -1,11 +1,66 @@
 h1 {
   margin-bottom: 30px;
+  text-align: center; /* Add text alignment to center the heading */
 }
 
 .example-full-width {
-  padding: auto;
+  width: 100%; /* Set the width to 100% to make the filter inputs full width */
+  margin: 0 auto; /* Center the filter inputs */
+  display: flex;
+  justify-content: space-between; /* Add space between the filter inputs */
+  align-items: flex-end; /* Align the filter inputs to the bottom */
 }
 
 .my-input {
   margin-top: 30px;
+  width: 100%; /* Set the width to 100% to make the filter inputs full width */
+}
+
+table {
+  width: 100%; /* Set the width to 100% to make the table full width */
+  margin-top: 30px; /* Add margin to separate the table from the filters */
+}
+
+th {
+  text-align: left; /* Add text alignment to the left for the table headers */
+}
+
+.mat-row {
+  height: 48px; /* Set the row height to match the height of the filter inputs */
+}
+
+.mat-cell, .mat-header-cell {
+  padding: 5px 0; /* Add some padding to the cells to make them look nicer */
+}
+
+.mat-header-row {
+  background-color: #f5f5f5; /* Add a background color to the table header row */
+}
+
+.mat-column-sku {
+  width: 10%; /* Set the width of the SKU column */
+}
+
+.mat-column-description {
+  width: 25%; /* Set the width of the Description column */
+}
+
+.mat-column-address {
+  width: 30%; /* Set the width of the Address column */
+}
+
+.mat-column-town {
+  width: 10%; /* Set the width of the Town column */
+}
+
+.mat-column-country {
+  width: 10%; /* Set the width of the Country column */
+}
+
+.mat-column-deliveryDate {
+  width: 15%; /* Set the width of the Delivery Date column */
+}
+
+button {
+  margin-top: 10px; /* Add some margin to separate the button from the filters */
 }

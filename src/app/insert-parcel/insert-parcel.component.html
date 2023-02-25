@@ -4,7 +4,7 @@
     <div>
       <label>Parcel SKU:</label>
       <input type="text" name="sku" [(ngModel)]="newParcel.sku" required #skuInput="ngModel">
-      <div *ngIf="(skuInput.invalid || skuExists)&& (skuInput.dirty || skuInput.touched)">
+      <div *ngIf="(skuInput.invalid || skuExists) && (skuInput.dirty || skuInput.touched)">
         <small *ngIf="skuInput.errors?.['required']">Parcel SKU is required.</small>
         <small *ngIf="skuExists">SKU already exists.</small>
       </div>
