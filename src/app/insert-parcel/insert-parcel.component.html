@@ -44,6 +44,8 @@
         <small *ngIf="deliveryDateInput.errors?.['required']">Delivery date is required.</small>
       </div>
     </div>
-    <button type="submit" [disabled]="insertParcelForm.invalid">Submit</button>
+    <div>
+      <button type="submit" [disabled]="insertParcelForm.invalid">Submit</button>
+    </div>
   </form>
 </div>
