@@ -1,3 +1,8 @@
+h1 {
+  margin-bottom: 30px;
+  text-align: center; /* Add text alignment to center the heading */
+}
+
 form {
   display: flex;
   flex-direction: column;
