@@ -13,12 +13,12 @@ export class ParcelListComponent implements OnInit {
   parcels: Parcel[] = [];
 
   displayedColumns: string[] = [
-    'ParcelSKU',
-    'Description',
-    'Address',
-    'Town',
-    'Country',
-    'Delivery Date'
+    'sku',
+    'description',
+    'address',
+    'town',
+    'country',
+    'deliveryDate'
   ];
 
   constructor(private parcelService: ParcelService) {}
