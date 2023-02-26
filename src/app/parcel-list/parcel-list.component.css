@@ -1,70 +1,68 @@
 h1 {
   margin-bottom: 30px;
-  text-align: center; /* Add text alignment to center the heading */
+  text-align: center;
 }
 
-td {
-  vertical-align: middle;
+tr td {
+  vertical-align: top;
 }
 
 .example-full-width {
-  width: 100%; /* Set the width to 100% to make the filter inputs full width */
-  margin: 0 auto; /* Center the filter inputs */
+  width: 100%;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between; /* Add space between the filter inputs */
-  align-items: flex-end; /* Align the filter inputs to the bottom */
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .my-input {
   margin-top: 30px;
-  width: 100%; /* Set the width to 100% to make the filter inputs full width */
+  width: 100%;
 }
 
 table {
-  width: 100%; /* Set the width to 100% to make the table full width */
-  margin-top: 30px; /* Add margin to separate the table from the filters */
+  width: 100%;
+  margin-top: 30px;
 }
 
 th {
-  text-align: left; /* Add text alignment to the left for the table headers */
+  text-align: left;
 }
 
 .mat-row {
-  height: 48px; /* Set the row height to match the height of the filter inputs */
+  height: 48px;
 }
 
-.mat-cell, .mat-header-cell {
-  padding: 5px 0; /* Add some padding to the cells to make them look nicer */
+.mat-cell,
+.mat-header-cell {
+  padding: 5px 0;
 }
 
 .mat-header-row {
-  background-color: #f5f5f5; /* Add a background color to the table header row */
+  background-color: #f5f5f5;
 }
 
 .mat-column-sku {
-  width: 10%; /* Set the width of the SKU column */
+  width: 10%;
 }
 
 .mat-column-description {
-  width: 25%; /* Set the width of the Description column */
+  width: 25%;
 }
 
 .mat-column-address {
-  width: 30%; /* Set the width of the Address column */
+  width: 30%;
 }
 
-.mat-column-town {
-  width: 10%; /* Set the width of the Town column */
-}
-
+.mat-column-town,
 .mat-column-country {
-  width: 10%; /* Set the width of the Country column */
+  width: 10%;
 }
 
 .mat-column-deliveryDate {
-  width: 15%; /* Set the width of the Delivery Date column */
+  width: 15%;
 }
 
 button {
-  margin-top: 10px; /* Add some margin to separate the button from the filters */
+  margin-top: 10px;
 }
