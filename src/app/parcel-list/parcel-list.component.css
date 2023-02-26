@@ -3,6 +3,10 @@ h1 {
   text-align: center; /* Add text alignment to center the heading */
 }
 
+td {
+  vertical-align: middle;
+}
+
 .example-full-width {
   width: 100%; /* Set the width to 100% to make the filter inputs full width */
   margin: 0 auto; /* Center the filter inputs */
